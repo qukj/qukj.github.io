@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="UTF-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-	<title>瑞信token</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>瑞信</title>
 </head>
 <body>
+    <h1 id="myHeader"></h1>
+    <script type="text/javascript">
+        document.getElementById("myHeader").innerHTML = '<div>' + window.location.search + '</div>';
+    </script>
 </body>
-<script type="text/javascript">
-    document.body.innerHtml = '<div>' + window.location.search + '</div>';
-</script>
 </html>
